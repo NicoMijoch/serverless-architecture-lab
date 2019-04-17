@@ -60,7 +60,8 @@ namespace TollBooth
                         // 7: Asyncronously upload the blob from the memory stream.
                         await blob.UploadFromStreamAsync(stream);
 
-                        successful = true;
+                        successful = true; //Testing
+                    
                     }
                     catch (Exception e)
                     {
